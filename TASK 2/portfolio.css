@@ -1,0 +1,217 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    padding-top:30px;
+    padding-bottom: 20px;
+    position: fixed;
+    background-color: rgb(5, 167, 231); 
+}
+header a{
+    padding-right: 11.43cm;
+}
+nav a{
+    padding-right: 15px;
+    padding-left: 20px;
+    font-size: larger;
+    font-weight:bold;
+    color: black;
+    text-decoration: none;
+}
+.portfolio{
+    padding-left: 20px;
+    font-size: larger;
+    font-weight: bold; 
+}
+nav a:hover{
+    cursor: pointer;
+    color:white;
+}
+.ho{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 180px;
+    padding-top: 200px;
+}
+
+.av{
+    padding-left: 50px;
+}
+.png{
+    margin-right: 10px;
+    margin-top: 20px;
+}
+.png:hover{
+    border:3px;
+    border-style:outset;
+    cursor: pointer;
+}
+.png:active{
+    border-color:rgb(15, 15, 17);
+}
+.ho div p{
+    padding-top: 5px;
+}
+.ho div h1{
+    color:brown;
+    font-size: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+button{
+    margin-top: 20px;
+    width: 4.5cm;
+    height: 1cm;
+    border-radius: 50px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    box-shadow: 5px 5px 10px black;
+    color: rgb(65, 58, 58);
+}
+button:hover{
+    font-weight: bolder;
+    box-shadow: 10px 10px 10px ;
+    cursor: pointer;
+}
+button:active{
+    background-color:rgb(5, 167, 231); 
+    color: white;
+}
+span{
+    color: darkblue
+}
+.ab{
+    padding:250px;
+    display: flex;
+    justify-content: center;
+
+}
+.ab div{
+    padding-left: 100px;
+}
+.ab div h1{
+    font-size: 50px;
+    color:darkblue
+}
+.ab div p{
+    padding-bottom: 20px;
+}
+.ab h3{
+    font-size: 20px;
+    color:darkblue
+}
+.tech{
+    font-size:xx-large;
+    color:brown;
+}
+.ser{
+    display: flex;
+    justify-content: center;
+}
+#service{
+    padding-top: 5cm;
+    padding-bottom: 6cm;
+
+}
+.ser div {
+    padding-left: 20px;
+    margin-left: 3cm;
+    padding-right: 20px;
+    margin-right: 3cm;
+    border: 5px solid white;
+    box-shadow: 10px 10px 20px ;
+}
+.ser img{
+    padding-left:20px;
+}
+.ser p{
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.ser h1{
+    text-align: center;
+}
+.ser div:hover{
+    color:darkblue;
+    border-style: outset;
+    box-shadow: 10px 10px 20px ;
+}
+#project{
+    padding-top: 3cm;
+    padding-bottom: 5cm;
+}
+.pr{
+    display: grid;
+    grid-template-columns:auto auto;
+    margin-left: 5cm;
+    margin-right: 5cm;
+}
+.pr div{
+    border: 5px outset;
+    margin-right: 1cm;
+    margin-left: 1cm;
+    margin-top: 1cm;
+    box-shadow: 10px 10px 15px;
+    background-image: url(bg.jpg);
+    background-repeat: no-repeat;
+    background-position: left;
+
+}
+.pr div h1{
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.pr div p{
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
+}
+.pr div:hover{
+    color: darkblue;
+}
+.pr a{
+    color: brown;
+}
+#contact{
+    padding-bottom:1.5cm;
+}
+.con{
+    padding-top: 20px;
+    margin-left: 15cm;
+}
+.con h1{
+    font-size: 70px;
+    padding-left: 30px;
+    color:darkblue;
+}
+label,input{
+    display: block;
+    padding-bottom: 5px;
+    width: 10cm;
+    font-weight: bolder;
+    border-color: brown;
+}
+.text{
+    padding-bottom: 5cm;
+}
+label{
+    margin-bottom:20px;
+    color: brown;
+}
+.sent{
+    background-color: skyblue;
+    margin-left: 2cm;
+}
+footer p{
+    padding-top: 1cm;;
+}
+
+

@@ -1,0 +1,36 @@
+
+body {
+background-color:darkslategrey;
+font-family: Arial, sans-serif;
+display: flex;
+justify-content: center;
+align-items: center;
+height: 100vh;
+margin: 0;
+}
+
+.container {
+text-align: center;
+padding: 20px;
+border: 2px solid #ccc;
+border-radius: 10px;
+}
+h1{
+color: white;
+text-shadow: 10px 10px 10px black;
+}
+h1:hover{
+color: red;
+}
+
+button {
+margin-top: 10px;
+}
+#result {
+margin-top: 20px;
+font-size: 18px;
+color: white;
+} 
+#result:hover{
+    color: red;
+}
